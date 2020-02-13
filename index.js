@@ -1,10 +1,19 @@
-function greet(name){
-    console.log("Hola " + name);
-
+function add (x1, x2) {
+return x1 + x2;
 }
 
-console.log(greet("Nacho tequeria comentar sobre "));
+function substract (x1, x2) {
+return x1 - x2;
+}
 
-const frutas = ["Manzana", "melon", "mango"];
+function multiply (x1, x2) {
+return x1 * x2;
+}
 
-console.log(frutas[2]);
+function divide (x1, x2) {
+    if (x2 == 0) {
+        console.log ('No se puede dividir con la presencia de un Cero'); } 
+        else {return x1 / x2;}
+    }
+
+console.log (add(1,2));
